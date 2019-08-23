@@ -1,0 +1,49 @@
+{
+  "name": "bkgroup",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "supervisor cluster.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "express": "^4.17.1",
+    "iview": "^3.0.1",
+    "material-design-icons-iconfont": "^3.0.3",
+    "material-icons": "^0.2.3",
+    "register-service-worker": "^1.6.2",
+    "roboto-fontface": "*",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-vue": "^0.8.1",
+    "vue": "^2.6.10",
+    "vue-float-label": "^1.6.1",
+    "vue-html-to-paper": "^1.1.0",
+    "vue-router": "^3.0.3",
+    "vue-router-layout": "^0.1.2",
+    "vue-turbolinks": "^2.0.4",
+    "vuesax": "^3.4.7",
+    "vuetify": "^1.5.5",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@mdi/font": "^3.7.95",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-plugin-pwa": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.6",
+    "vue-auto-routing": "^0.3.0",
+    "vue-cli-plugin-auto-routing": "^0.2.1",
+    "vue-cli-plugin-iview": "^1.0.6",
+    "vue-cli-plugin-vuesax": "^1.0.0",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
